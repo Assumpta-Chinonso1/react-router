@@ -1,0 +1,34 @@
+{
+    "jobs":[
+        {
+            "id":1,
+            "title":"React Developer",
+            "salary": 10000000,
+            "location":"USA"
+        },
+        {
+            "id":2,
+            "title":"Javascript Developer",
+            "salary": 20000000,
+            "location":"Fransico"
+        },
+        {
+            "id":3,
+            "title":"Product Manager",
+            "salary": 50000,
+            "location":"Nigeria"
+        },
+        {
+            "id":4,
+            "title":"UI/UX designer",
+            "salary": 800000,
+            "location":"Canada"
+        },
+        {
+            "id":5,
+            "title":"Full stack developer",
+            "salary": 20000000,
+            "location":"London"
+        }
+    ]
+}
