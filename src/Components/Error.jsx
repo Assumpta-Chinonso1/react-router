@@ -6,9 +6,9 @@ const Error = () => {
     const navigate = useNavigate()
   return (
     <div className='job-details'>
-        <h3>An Error Occured</h3>
+        <h3>An error occurred!!!😧</h3>
         <p>{error.message}</p>
-        <button onClick={()=>navigate('/')}>Go to Homepage</button>
+        <button className='button' onClick={()=>navigate('/')}>Go to HomePage</button>
     </div>
   )
 }

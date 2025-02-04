@@ -2,14 +2,13 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Contact = () => {
-
-  const navigate = useNavigate()
+    const navigate = useNavigate()
   return (
     <div>
         <h1>Contact Page</h1>
-        <div className="contact-buttons">
-          <button onClick={()=>navigate('info') }>Contact Info</button>
-          <button onClick={()=>navigate('form') }>Contact Form</button>
+        <div className="contact-button">
+            <button onClick={()=>navigate('info')}> contact   Info</button>
+            <button onClick={()=>navigate('form')}> contact Form</button>
         </div>
     </div>
   )
